@@ -1,0 +1,30 @@
+@use "global" as *;
+.xxx_swiper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide::before {
+  content: "";
+  display: block;
+  padding-top: calc(128 / 96 * 100%);
+}
+
+.swiper-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper_thumbs .swiper-slide {
+  opacity: 0.4;
+}
+
+.swiper_thumbs .swiper-slide-active {
+  opacity: 1;
+}
