@@ -4,9 +4,10 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
+- https://c-0110.wtb.cfbx.jp/
 
 ## 更新履歴
 
 - 2022/10/10 swiper@8 系、サムネイルセンタリング(centeredSlides)、controller.control を使用。雛形完成。
 - 2022/10/10 コメント追記。サーバーメンテの為、アップロードは未済。
+- 2022/10/10 サーバーメンテ終了したので、アップロード。
